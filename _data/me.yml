@@ -1,7 +1,7 @@
 # These data will be shown in /about page and every page footer
 # Replace these with your own personal info
 
-name: "YOUR NAME"
+name: "Yong Lee"
 job: "Job Title"
 hi: "HIYA!"
 avatar_img: "/assets/img/me.png" # path to your avatar
@@ -19,9 +19,9 @@ skills:
     icon-class: "fa fa-cogs"
     list: ["Linux", "Docker", "Git", "SublimeText"]
 
-display_name: "YOUR NAME"
+display_name: "Yong Lee"
 contact:
-  - {name: "Mobile", icon-class: "fa fa-phone-square", text: "123 4567 8910", link: "tel: 123 4567 8010"}
-  - {name: "Email", icon-class: "fa fa-envelope", text: "example@example.com", link: "mailto: example@example.com"}
+  - {name: "Mobile", icon-class: "fa fa-phone-square", text: "(+86)150-7242-3262", link: "tel: +8615072423262"}
+  - {name: "Email", icon-class: "fa fa-envelope", text: "yongli.cv@gmail.com", link: "mailto: yongli.cv@gmail.com"}
 social:
-  - {name: "GitHub", icon-class: "fa fa-github-square", text: "https://github.com", link: "https://github.com"}
+  - {name: "GitHub", icon-class: "fa fa-github-square", text: "https://github.com/yongleex", link: "https://github.com/yongleex"}
