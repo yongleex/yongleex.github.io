@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "publications.xdv" "publications.pdf" "publications" 0
+  "publications.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "publications.pdf"
+["xelatex"] 1605774374 "publications.tex" "publications.xdv" "publications" 1605774374
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1595928725 4769627 49c682f41ba98a63639a6f8d1cb338ec ""
+  "/usr/local/texlive/2020/texmf.cnf" 1595928692 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "publications.aux" 1605774330 8 a94a2480d3289e625eea47cd1b285758 ""
+  "publications.tex" 1605774373 766 18c1ce91fc80a4eac42bcc3d40de74b8 ""
+  (generated)
+  "publications.log"
+  "publications.xdv"

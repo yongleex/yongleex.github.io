@@ -1,0 +1,6 @@
+PWD /media/yong/软件及个人材料/个人资料/Li Yong CV
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt
+INPUT publications.tex
+OUTPUT publications.log

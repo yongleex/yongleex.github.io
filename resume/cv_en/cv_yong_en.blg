@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'cv_yong_en.blg'
+[56] biber:322> INFO - === Tue Mar  2, 2021, 16:54:29
+[68] Biber.pm:415> INFO - Reading 'cv_yong_en.bcf'
+[137] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[148] Biber.pm:4256> INFO - Processing section 0
+[149] Utils.pm:75> INFO - Globbing data source 'own-bib.bib'
+[149] Utils.pm:91> INFO - Globbed data source 'own-bib.bib' to own-bib.bib
+[156] Biber.pm:4455> INFO - Looking for bibtex format file 'own-bib.bib' for section 0
+[157] bibtex.pm:1653> INFO - LaTeX decoding ...
+[166] bibtex.pm:1471> INFO - Found BibTeX data source 'own-bib.bib'
+[248] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[248] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[248] Biber.pm:4084> INFO - Sorting list 'ymdnt/global//global/global' of type 'entry' with template 'ymdnt' and locale 'en-US'
+[248] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[260] bbl.pm:652> INFO - Writing 'cv_yong_en.bbl' with encoding 'UTF-8'
+[268] bbl.pm:755> INFO - Output to cv_yong_en.bbl
