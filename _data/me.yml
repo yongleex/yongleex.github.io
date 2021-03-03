@@ -25,4 +25,4 @@ contact:
   - {name: "Email", icon-class: "fa fa-envelope", text: "yongli.cv@gmail.com", link: "mailto: yongli.cv@gmail.com"}
 social:
   - {name: "GitHub", icon-class: "fa fa-github-square", text: "https://github.com/yongleex", link: "https://github.com/yongleex"}
-  - {name: "Google Scholar", icon-class: "ai ai-google-scholar-square ai-3x", text: "https://scholar.google.com/citations?user=AtCgZMcAAAAJ&hl=en", link: "https://scholar.google.com/citations?user=AtCgZMcAAAAJ&hl=en"}
+  - {name: "Google Scholar", icon-class: "fa fa-google", text: "https://scholar.google.com/citations?user=AtCgZMcAAAAJ&hl=en", link: "https://scholar.google.com/citations?user=AtCgZMcAAAAJ&hl=en"}
