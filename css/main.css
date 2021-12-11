@@ -719,5 +719,5 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   display: none;
   overflow: hidden;
   background-color: white;
-  white-space: PRE-LINE ;
+  /*white-space: PRE-LINE ;*/
 }

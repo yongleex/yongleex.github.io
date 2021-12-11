@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+
+<html>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  The above 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+ -->
+<title>Yong Lee</title>
+<!-- Set the base URL for all relative URLs within the document -->
+<base href="http://localhost:4000">
+
+<!--
+  Allows control over where resources are loaded from.
+  Place as early in the <head> as possible, as the tag  
+  only applies to resources that are declared after it.
+-->
+
+<!-- Short description of the document (limit to 150 characters) -->
+<!-- This content *may* be used as a part of search engine results. -->
+<meta name="description" content="Yong Lee">
+
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Verify website ownership -->
+<meta name="google-site-verification" content=""><!-- Google Search Console -->
+<meta name="yandex-verification" content=""><!-- Yandex Webmasters -->
+<meta name="msvalidate.01" content=""><!-- Bing Webmaster Center -->
+<meta name="alexaVerifyID" content=""><!-- Alexa Console -->
+<meta name="p:domain_verify" content=""><!-- Pinterest Console-->
+<meta name="norton-safeweb-site-verification" content=""><!-- Norton Safe Web -->
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=true">
+
+<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- Geo tags -->
+<!-- meta name="ICBM" content="latitude, longitude"-->
+<!-- meta name="geo.position" content="latitude;longitude"-->
+<!-- meta name="geo.region" content="country[-state]"><Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<!-- meta name="geo.placename" content="city/town"><eg. content="New York City" -->
+
+<!-- Link to an external CSS file -->
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Courgette&family=Lobster&family=Pacifico&family=Yellowtail&family=Noto+Sans+JP:wght@400;900&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.css">
+<!-- BootStrap CDN --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://kit.fontawesome.com/32a2b2a489.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
+
+<!--  GIT TALK CDN  for comment system -->
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> -->
+
+
+<!-- Provides information about an author or another person -->
+<link rel="me" href="mailto:yongli.cv@gmail.com">
+<link rel="me" href="sms:+">
+
+<!-- Open Search -->
+<!-- link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title" -->
+
+<!-- Feeds -->
+<!-- link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS" -->
+<!-- link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3" -->
+
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta property="fb:app_id" content="">
+<meta property="og:url" content="/publications.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Publications">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:url" content="/publications.html">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<meta name="twitter:image:alt" content="">
+
+<!-- Used for adding in-document CSS -->
+
+
+
+<!-- JavaScript & No-JavaScript tags -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!--
+<script>
+    $(document).ready(function() {
+        $(".toast").toast('show');
+    });
+</script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+<noscript>
+  <!-- No JS alternative -->
+</noscript>
+
+
+  <body>
+    
+<nav class="navbar navbar-expand-lg glowing-border mb-4" style="font-family:Poppins;background-color:#10292e;">
+  <a class="navbar-brand" href="/index.html"><h4 style="font-family:Noto Sans JP;font-weight:600;color:#149f98;">Yong Lee</h4></a>
+  <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-caret-down"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        
+    </ul>
+    <ul class="navbar-nav  justify-content-end">
+      <li class="nav-item">
+        
+<!-- Displays Social Media Icons based on _config.yml settings -->
+<span style="color:#CCCCCC;">
+    <i> &nbsp;&nbsp; </i>
+    
+    
+        <a href="https://github.com/yongleex">
+        <span style="color: #CCCCCC;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://scholar.google.com/citations?user=AtCgZMcAAAAJ">
+        <span style="color: black;">
+            <!-- <i class="fab fa-google-scholar fa-lg"></i></a> -->
+            <img src="https://yongleex.github.io/assets/img/icons/google-scholar.svg" style="width:15px;"></a>
+        </span>
+    
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="container">
+      
+      <div class="card border-0">
+          <div class="card-body">
+            <p class="card-text">
+                
+<div class="blogcard  card-1 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:36px;font-weight:700;">Publications</h5>
+  </div>
+</div>
+<ol class="bibliography"><li><div class="row">
+  <div id="lee2021diffeomorphic" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Diffeomorphic Particle Image Velocimetry</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Lee, Yong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Mei, Shuang
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>IEEE Transactions on Instrumentation and Measurement, </em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://doi.org/10.1109/TIM.2021.3132999" role="button" target="_blank">[Journal Link]</a>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <a class="collapsible" role="button" target="_blank">[BibTex]</a>
+    <div class="content" style="display:none" >
+    <p style="white-space:PRE-LINE; border:1px; border-style:solid; border-color:#880088; padding: 0.2em;" >
+    @article{lee2021diffeomorphic,
+  title = {Diffeomorphic Particle Image Velocimetry},
+  author = {Lee, Yong and Mei, Shuang},
+  journal = {IEEE Transactions on Instrumentation and Measurement},
+  doi = {10.1109/tim.2021.3132999},
+  url = {https://doi.org/10.1109/TIM.2021.3132999},
+  issn = {0018-9456},
+  year = {2021}
+}
+
+    </p>
+    </div>
+    </div>
+
+
+   <!-- <a class="abstract btn btn-sm z-depth-0" role="button">[BibTex]</a>-->
+   <!-- <button type="button">[BibTex]</button>-->
+<!--     <div class="hidden_box">
+      <label for="xxx">[BibTex]</label>
+      <input type="checkbox" id="xxx"/>
+      <div class="hidden_show">
+        <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;"> -->
+        <!-- @article{lee2021diffeomorphic,
+  title = {Diffeomorphic Particle Image Velocimetry},
+  author = {Lee, Yong and Mei, Shuang},
+  journal = {IEEE Transactions on Instrumentation and Measurement},
+  doi = {10.1109/tim.2021.3132999},
+  url = {https://doi.org/10.1109/TIM.2021.3132999},
+  issn = {0018-9456},
+  year = {2021}
+}
+ -->
+       <!--  lee2021diffeomorphic xxxx  
+        </p>
+      </div>
+    </div> -->
+
+<!--     <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;">
+    lee2021diffeomorphic
+    </p> -->
+
+
+    <!-- Hidden abstract block -->
+<!--      -->
+
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="lee2021gcme" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Blind Inverse Gamma Correction with Maximized Differential Entropy</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Lee, Yong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Shaohua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Li, Miao,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and He, Xiaoyu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Signal Processing, </em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://www.sciencedirect.com/science/article/pii/S0165168421004643" role="button" target="_blank">[Journal Link]</a>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <a class="collapsible" role="button" target="_blank">[BibTex]</a>
+    <div class="content" style="display:none" >
+    <p style="white-space:PRE-LINE; border:1px; border-style:solid; border-color:#880088; padding: 0.2em;" >
+    @article{lee2021gcme,
+  title = {Blind Inverse Gamma Correction with Maximized Differential Entropy},
+  author = {Lee, Yong and Zhang, Shaohua and Li, Miao and He, Xiaoyu},
+  journal = {Signal Processing},
+  pages = {108427},
+  year = {2021},
+  issn = {0165-1684},
+  doi = {https://doi.org/10.1016/j.sigpro.2021.108427},
+  url = {https://www.sciencedirect.com/science/article/pii/S0165168421004643}
+}
+
+    </p>
+    </div>
+    </div>
+
+
+   <!-- <a class="abstract btn btn-sm z-depth-0" role="button">[BibTex]</a>-->
+   <!-- <button type="button">[BibTex]</button>-->
+<!--     <div class="hidden_box">
+      <label for="xxx">[BibTex]</label>
+      <input type="checkbox" id="xxx"/>
+      <div class="hidden_show">
+        <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;"> -->
+        <!-- @article{lee2021gcme,
+  title = {Blind Inverse Gamma Correction with Maximized Differential Entropy},
+  author = {Lee, Yong and Zhang, Shaohua and Li, Miao and He, Xiaoyu},
+  journal = {Signal Processing},
+  pages = {108427},
+  year = {2021},
+  issn = {0165-1684},
+  doi = {https://doi.org/10.1016/j.sigpro.2021.108427},
+  url = {https://www.sciencedirect.com/science/article/pii/S0165168421004643}
+}
+ -->
+       <!--  lee2021gcme xxxx  
+        </p>
+      </div>
+    </div> -->
+
+<!--     <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;">
+    lee2021gcme
+    </p> -->
+
+
+    <!-- Hidden abstract block -->
+<!--      -->
+
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="Chen2021MuMMI" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Chen, Kaiqi,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lee, Yong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Soh, Harold
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In IEEE International Conference on Robotics and Automation (ICRA), </em>
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://arxiv.org/abs/2107.02339" role="button" target="_blank">[Journal Link]</a>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <a class="collapsible" role="button" target="_blank">[BibTex]</a>
+    <div class="content" style="display:none" >
+    <p style="white-space:PRE-LINE; border:1px; border-style:solid; border-color:#880088; padding: 0.2em;" >
+    @inproceedings{Chen2021MuMMI,
+  title = {Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning},
+  author = {Chen, Kaiqi and Lee, Yong and Soh, Harold},
+  year = {2021},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  url = {https://arxiv.org/abs/2107.02339}
+}
+
+    </p>
+    </div>
+    </div>
+
+
+   <!-- <a class="abstract btn btn-sm z-depth-0" role="button">[BibTex]</a>-->
+   <!-- <button type="button">[BibTex]</button>-->
+<!--     <div class="hidden_box">
+      <label for="xxx">[BibTex]</label>
+      <input type="checkbox" id="xxx"/>
+      <div class="hidden_show">
+        <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;"> -->
+        <!-- @inproceedings{Chen2021MuMMI,
+  title = {Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning},
+  author = {Chen, Kaiqi and Lee, Yong and Soh, Harold},
+  year = {2021},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  url = {https://arxiv.org/abs/2107.02339}
+}
+ -->
+       <!--  Chen2021MuMMI xxxx  
+        </p>
+      </div>
+    </div> -->
+
+<!--     <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;">
+    Chen2021MuMMI
+    </p> -->
+
+
+    <!-- Hidden abstract block -->
+<!--      -->
+
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="lee2017pivdcnn" class="col-sm-8">
+    
+      <div class="title font-weight-bold">PIV-DCNN: cascaded deep convolutional neural networks for particle image velocimetry</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Lee, Yong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yang, Hua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Yin, Zhouping
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Experiments in Fluids, </em>
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://doi.org/10.1007%2Fs00348-017-2456-1" role="button" target="_blank">[Journal Link]</a>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <a class="collapsible" role="button" target="_blank">[BibTex]</a>
+    <div class="content" style="display:none" >
+    <p style="white-space:PRE-LINE; border:1px; border-style:solid; border-color:#880088; padding: 0.2em;" >
+    @article{lee2017pivdcnn,
+  doi = {10.1007/s00348-017-2456-1},
+  url = {https://doi.org/10.1007%2Fs00348-017-2456-1},
+  year = {2017},
+  month = nov,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {58},
+  number = {12},
+  author = {Lee, Yong and Yang, Hua and Yin, Zhouping},
+  title = {{PIV}-{DCNN}: cascaded deep convolutional neural networks for particle image velocimetry},
+  journal = {Experiments in Fluids}
+}
+
+    </p>
+    </div>
+    </div>
+
+
+   <!-- <a class="abstract btn btn-sm z-depth-0" role="button">[BibTex]</a>-->
+   <!-- <button type="button">[BibTex]</button>-->
+<!--     <div class="hidden_box">
+      <label for="xxx">[BibTex]</label>
+      <input type="checkbox" id="xxx"/>
+      <div class="hidden_show">
+        <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;"> -->
+        <!-- @article{lee2017pivdcnn,
+  doi = {10.1007/s00348-017-2456-1},
+  url = {https://doi.org/10.1007%2Fs00348-017-2456-1},
+  year = {2017},
+  month = nov,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {58},
+  number = {12},
+  author = {Lee, Yong and Yang, Hua and Yin, Zhouping},
+  title = {{PIV}-{DCNN}: cascaded deep convolutional neural networks for particle image velocimetry},
+  journal = {Experiments in Fluids}
+}
+ -->
+       <!--  lee2017pivdcnn xxxx  
+        </p>
+      </div>
+    </div> -->
+
+<!--     <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;">
+    lee2017pivdcnn
+    </p> -->
+
+
+    <!-- Hidden abstract block -->
+<!--      -->
+
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="lee2017outlier" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Outlier detection for particle image velocimetry data using a locally estimated noise variance</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Lee, Yong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yang, Hua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Yin, ZhouPing
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Measurement Science and Technology, </em>
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://doi.org/10.1088%2F1361-6501%2Faa5431" role="button" target="_blank">[Journal Link]</a>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <a class="collapsible" role="button" target="_blank">[BibTex]</a>
+    <div class="content" style="display:none" >
+    <p style="white-space:PRE-LINE; border:1px; border-style:solid; border-color:#880088; padding: 0.2em;" >
+    @article{lee2017outlier,
+  doi = {10.1088/1361-6501/aa5431},
+  url = {https://doi.org/10.1088%2F1361-6501%2Faa5431},
+  year = {2017},
+  month = jan,
+  publisher = {{IOP} Publishing},
+  volume = {28},
+  number = {3},
+  pages = {035301},
+  author = {Lee, Yong and Yang, Hua and Yin, ZhouPing},
+  title = {Outlier detection for particle image velocimetry data using a locally estimated noise variance},
+  journal = {Measurement Science and Technology}
+}
+
+    </p>
+    </div>
+    </div>
+
+
+   <!-- <a class="abstract btn btn-sm z-depth-0" role="button">[BibTex]</a>-->
+   <!-- <button type="button">[BibTex]</button>-->
+<!--     <div class="hidden_box">
+      <label for="xxx">[BibTex]</label>
+      <input type="checkbox" id="xxx"/>
+      <div class="hidden_show">
+        <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;"> -->
+        <!-- @article{lee2017outlier,
+  doi = {10.1088/1361-6501/aa5431},
+  url = {https://doi.org/10.1088%2F1361-6501%2Faa5431},
+  year = {2017},
+  month = jan,
+  publisher = {{IOP} Publishing},
+  volume = {28},
+  number = {3},
+  pages = {035301},
+  author = {Lee, Yong and Yang, Hua and Yin, ZhouPing},
+  title = {Outlier detection for particle image velocimetry data using a locally estimated noise variance},
+  journal = {Measurement Science and Technology}
+}
+ -->
+       <!--  lee2017outlier xxxx  
+        </p>
+      </div>
+    </div> -->
+
+<!--     <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;">
+    lee2017outlier
+    </p> -->
+
+
+    <!-- Hidden abstract block -->
+<!--      -->
+
+  </div>
+</div></li>
+<li><div class="row">
+  <div id="yang2016automatic" class="col-sm-8">
+    
+      <div class="title font-weight-bold">Automatic barcode recognition method based on adaptive edge detection and a mapping model</div>
+      <div class="author">
+        
+          
+            
+              
+                
+                  Yang, Hua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chen, Lianzheng,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chen, Yifan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lee, Yong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Yin, Zhouping
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Electronic Imaging, </em>
+      
+      
+        2016
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+      <a href="https://doi.org/10.1117%2F1.jei.25.5.053019" role="button" target="_blank">[Journal Link]</a>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <a class="collapsible" role="button" target="_blank">[BibTex]</a>
+    <div class="content" style="display:none" >
+    <p style="white-space:PRE-LINE; border:1px; border-style:solid; border-color:#880088; padding: 0.2em;" >
+    @article{yang2016automatic,
+  doi = {10.1117/1.jei.25.5.053019},
+  url = {https://doi.org/10.1117%2F1.jei.25.5.053019},
+  year = {2016},
+  month = sep,
+  publisher = {{SPIE}-Intl Soc Optical Eng},
+  volume = {25},
+  number = {5},
+  pages = {053019},
+  author = {Yang, Hua and Chen, Lianzheng and Chen, Yifan and Lee, Yong and Yin, Zhouping},
+  title = {Automatic barcode recognition method based on adaptive edge detection and a mapping model},
+  journal = {Journal of Electronic Imaging}
+}
+
+    </p>
+    </div>
+    </div>
+
+
+   <!-- <a class="abstract btn btn-sm z-depth-0" role="button">[BibTex]</a>-->
+   <!-- <button type="button">[BibTex]</button>-->
+<!--     <div class="hidden_box">
+      <label for="xxx">[BibTex]</label>
+      <input type="checkbox" id="xxx"/>
+      <div class="hidden_show">
+        <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;"> -->
+        <!-- @article{yang2016automatic,
+  doi = {10.1117/1.jei.25.5.053019},
+  url = {https://doi.org/10.1117%2F1.jei.25.5.053019},
+  year = {2016},
+  month = sep,
+  publisher = {{SPIE}-Intl Soc Optical Eng},
+  volume = {25},
+  number = {5},
+  pages = {053019},
+  author = {Yang, Hua and Chen, Lianzheng and Chen, Yifan and Lee, Yong and Yin, Zhouping},
+  title = {Automatic barcode recognition method based on adaptive edge detection and a mapping model},
+  journal = {Journal of Electronic Imaging}
+}
+ -->
+       <!--  yang2016automatic xxxx  
+        </p>
+      </div>
+    </div> -->
+
+<!--     <p style="border:1px; border-style:solid; border-color:#880088; padding: 0.5em;">
+    yang2016automatic
+    </p> -->
+
+
+    <!-- Hidden abstract block -->
+<!--      -->
+
+  </div>
+</div></li></ol>
+
+
+
+
+            </p>
+            
+              <p class="card-text"><small class="text-muted">This page was last updated at 2021-12-11 21:16.</small></p>
+            
+          </div>
+      </div>
+      
+    </div>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <p class="navbar-text pull-left">2021 © 
+        <a href="https://yongleex.github.io/" target="_blank" >Yong Lee</a>
+    </p>
+    <p class="navbar-text pull-right">
+            <!-- Displays Social Media Icons based on _config.yml settings -->
+
+<span style="color: Black;">
+     
+    
+        <a href="https://github.com/yongleex">
+        <span style="color: black;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://scholar.google.com/citations?user=AtCgZMcAAAAJ">
+        <span style="color: black;">
+            <img src="https://yongleex.github.io/assets/img/icons/google-scholar.svg" style="width:20px;height:40px;"></a>
+        </span>
+    
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+    </p>
+  </div>
+</div> 
+
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+</script>
+  </body>
+</html>

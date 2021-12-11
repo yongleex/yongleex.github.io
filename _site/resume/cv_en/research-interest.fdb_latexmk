@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "research-interest.xdv" "research-interest.pdf" "research-interest" 0
+  "research-interest.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "research-interest.pdf"
+["xelatex"] 1619356856 "research-interest.tex" "research-interest.xdv" "research-interest" 1619356856
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1615281870 4769624 131f7d5531de18b68df4dd67dfb69b60 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1615281827 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "research-interest.aux" 1619356856 8 a94a2480d3289e625eea47cd1b285758 ""
+  "research-interest.tex" 1619356855 898 d237fe0c155bf10946597c586d36d4b8 ""
+  (generated)
+  "research-interest.xdv"
+  "research-interest.log"
