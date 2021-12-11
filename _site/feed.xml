@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-11T15:54:20+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Yong Lee</title><subtitle>Yong Lee</subtitle><author><name>Yong Lee</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/post/2020/10/30/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-10-30T08:01:21+08:00</published><updated>2020-10-30T08:01:21+08:00</updated><id>http://localhost:4000/post/2020/10/30/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/post/2020/10/30/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Tyler Butler</name></author><category term="post" /><category term="jekyll" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://placehold.it/750X300?text=Header+Image" /><media:content medium="image" url="http://placehold.it/750X300?text=Header+Image" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Dumbarton Style Guide</title><link href="http://localhost:4000/post/2020/10/29/Dumbarton-Style-Guide.html" rel="alternate" type="text/html" title="Dumbarton Style Guide" /><published>2020-10-29T08:01:21+08:00</published><updated>2020-10-29T08:01:21+08:00</updated><id>http://localhost:4000/post/2020/10/29/Dumbarton-Style-Guide</id><content type="html" xml:base="http://localhost:4000/post/2020/10/29/Dumbarton-Style-Guide.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#markdown&quot;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#bootstrap&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[Custom CSS]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;markdown&quot;&gt;Markdown&lt;/h1&gt;
+
+&lt;h1 id=&quot;heading-&quot;&gt;Heading &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;heading--1&quot;&gt;Heading &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;##&lt;/code&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;heading&quot;&gt;Heading&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;###&lt;/code&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;heading--2&quot;&gt;Heading &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;####&lt;/code&gt;&lt;/h4&gt;
+&lt;h5 id=&quot;heading-1&quot;&gt;Heading&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#####&lt;/code&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;em&gt;italics&lt;/em&gt;  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*italics*&lt;/code&gt;&lt;br /&gt;
+&lt;strong&gt;Bold&lt;/strong&gt;   &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**Bold**&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Code Highlighting&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;my_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello from a function&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;my_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Block Quote&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tables&lt;/p&gt;
+
+&lt;table class=&quot;mbtablestyle&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Syntax&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Description&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Test Text&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Header&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Title&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Here’s this&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Paragraph&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Text&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;And more&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Here’s a simple footnote,&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and here’s a longer one.&lt;sup id=&quot;fnref:bignote&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:bignote&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;bootstrap&quot;&gt;Bootstrap&lt;/h1&gt;
+&lt;p&gt;This theme uses Bootstrap 4 CDN. In addition to markdown, you can use raw bootstrap HTML to format posts and pages. For a full list of options, check out the &lt;a href=&quot;https://getbootstrap.com/docs/4.5/getting-started/introduction/&quot;&gt;Documentation&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
+  A simple primary alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-secondary&quot; role=&quot;alert&quot;&gt;
+  A simple secondary alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  A simple success alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;
+  A simple danger alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  A simple warning alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+  A simple info alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-light&quot; role=&quot;alert&quot;&gt;
+  A simple light alert—check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-dark&quot; role=&quot;alert&quot;&gt;
+  A simple dark alert—check it out!
+&lt;/div&gt;
+
+&lt;h1&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h1&gt;
+&lt;h2&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h2&gt;
+&lt;h3&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h3&gt;
+&lt;h4&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h4&gt;
+&lt;h5&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h5&gt;
+&lt;h6&gt;Example heading &lt;span class=&quot;badge badge-secondary&quot;&gt;New&lt;/span&gt;&lt;/h6&gt;
+
+&lt;nav aria-label=&quot;breadcrumb&quot;&gt;
+  &lt;ol class=&quot;breadcrumb&quot;&gt;
+    &lt;li class=&quot;breadcrumb-item active&quot; aria-current=&quot;page&quot;&gt;Home&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/nav&gt;
+
+&lt;nav aria-label=&quot;breadcrumb&quot;&gt;
+  &lt;ol class=&quot;breadcrumb&quot;&gt;
+    &lt;li class=&quot;breadcrumb-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;breadcrumb-item active&quot; aria-current=&quot;page&quot;&gt;Library&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/nav&gt;
+
+&lt;nav aria-label=&quot;breadcrumb&quot;&gt;
+  &lt;ol class=&quot;breadcrumb&quot;&gt;
+    &lt;li class=&quot;breadcrumb-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;breadcrumb-item&quot;&gt;&lt;a href=&quot;#&quot;&gt;Library&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;breadcrumb-item active&quot; aria-current=&quot;page&quot;&gt;Data&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/nav&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-dark&quot;&gt;Dark&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot;&gt;Link&lt;/button&gt;&lt;/p&gt;
+
+&lt;div class=&quot;btn-group&quot; role=&quot;group&quot; aria-label=&quot;Button group with nested dropdown&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;1&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;2&lt;/button&gt;
+
+  &lt;div class=&quot;btn-group&quot; role=&quot;group&quot;&gt;
+    &lt;button id=&quot;btnGroupDrop1&quot; type=&quot;button&quot; class=&quot;btn btn-secondary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+      Dropdown
+    &lt;/button&gt;
+    &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;btnGroupDrop1&quot;&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+      &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card&quot; style=&quot;width: 18rem;&quot;&gt;
+  &lt;img src=&quot;http://placehold.it/150x150&quot; class=&quot;card-img-top&quot; alt=&quot;...&quot; /&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;h5 class=&quot;card-title&quot;&gt;Card title&lt;/h5&gt;
+    &lt;p class=&quot;card-text&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div class=&quot;card-body&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Card link&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Another link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Example split danger button --&gt;
+&lt;div class=&quot;btn-group&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Action&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-danger dropdown-toggle dropdown-toggle-split&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+    &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropdown&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;div class=&quot;dropdown-menu&quot;&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+    &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;form&gt;
+  &lt;div class=&quot;form-group row&quot;&gt;
+    &lt;label for=&quot;inputEmail3&quot; class=&quot;col-sm-2 col-form-label&quot;&gt;Email&lt;/label&gt;
+    &lt;div class=&quot;col-sm-10&quot;&gt;
+      &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;inputEmail3&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-group row&quot;&gt;
+    &lt;label for=&quot;inputPassword3&quot; class=&quot;col-sm-2 col-form-label&quot;&gt;Password&lt;/label&gt;
+    &lt;div class=&quot;col-sm-10&quot;&gt;
+      &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;inputPassword3&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;fieldset class=&quot;form-group&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;legend class=&quot;col-form-label col-sm-2 pt-0&quot;&gt;Radios&lt;/legend&gt;
+      &lt;div class=&quot;col-sm-10&quot;&gt;
+        &lt;div class=&quot;form-check&quot;&gt;
+          &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;gridRadios&quot; id=&quot;gridRadios1&quot; value=&quot;option1&quot; checked=&quot;&quot; /&gt;
+          &lt;label class=&quot;form-check-label&quot; for=&quot;gridRadios1&quot;&gt;
+            First radio
+          &lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-check&quot;&gt;
+          &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;gridRadios&quot; id=&quot;gridRadios2&quot; value=&quot;option2&quot; /&gt;
+          &lt;label class=&quot;form-check-label&quot; for=&quot;gridRadios2&quot;&gt;
+            Second radio
+          &lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-check disabled&quot;&gt;
+          &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;gridRadios&quot; id=&quot;gridRadios3&quot; value=&quot;option3&quot; disabled=&quot;&quot; /&gt;
+          &lt;label class=&quot;form-check-label&quot; for=&quot;gridRadios3&quot;&gt;
+            Third disabled radio
+          &lt;/label&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/fieldset&gt;
+  &lt;div class=&quot;form-group row&quot;&gt;
+    &lt;div class=&quot;col-sm-2&quot;&gt;Checkbox&lt;/div&gt;
+    &lt;div class=&quot;col-sm-10&quot;&gt;
+      &lt;div class=&quot;form-check&quot;&gt;
+        &lt;input class=&quot;form-check-input&quot; type=&quot;checkbox&quot; id=&quot;gridCheck1&quot; /&gt;
+        &lt;label class=&quot;form-check-label&quot; for=&quot;gridCheck1&quot;&gt;
+          Example checkbox
+        &lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-group row&quot;&gt;
+    &lt;div class=&quot;col-sm-10&quot;&gt;
+      &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Sign in&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+
+&lt;div class=&quot;input-group mb-3&quot;&gt;
+  &lt;div class=&quot;input-group-prepend&quot;&gt;
+    &lt;span class=&quot;input-group-text&quot; id=&quot;basic-addon1&quot;&gt;@&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Username&quot; aria-label=&quot;Username&quot; aria-describedby=&quot;basic-addon1&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;input-group mb-3&quot;&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Recipient's username&quot; aria-label=&quot;Recipient's username&quot; aria-describedby=&quot;basic-addon2&quot; /&gt;
+  &lt;div class=&quot;input-group-append&quot;&gt;
+    &lt;span class=&quot;input-group-text&quot; id=&quot;basic-addon2&quot;&gt;@example.com&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;label for=&quot;basic-url&quot;&gt;Your vanity URL&lt;/label&gt;&lt;/p&gt;
+&lt;div class=&quot;input-group mb-3&quot;&gt;
+  &lt;div class=&quot;input-group-prepend&quot;&gt;
+    &lt;span class=&quot;input-group-text&quot; id=&quot;basic-addon3&quot;&gt;https://example.com/users/&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;basic-url&quot; aria-describedby=&quot;basic-addon3&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;input-group mb-3&quot;&gt;
+  &lt;div class=&quot;input-group-prepend&quot;&gt;
+    &lt;span class=&quot;input-group-text&quot;&gt;$&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-control&quot; aria-label=&quot;Amount (to the nearest dollar)&quot; /&gt;
+  &lt;div class=&quot;input-group-append&quot;&gt;
+    &lt;span class=&quot;input-group-text&quot;&gt;.00&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;input-group&quot;&gt;
+  &lt;div class=&quot;input-group-prepend&quot;&gt;
+    &lt;span class=&quot;input-group-text&quot;&gt;With textarea&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;textarea class=&quot;form-control&quot; aria-label=&quot;With textarea&quot;&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;jumbotron&quot;&gt;
+  &lt;h1 class=&quot;display-4&quot;&gt;Hello, world!&lt;/h1&gt;
+  &lt;p class=&quot;lead&quot;&gt;This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.&lt;/p&gt;
+  &lt;hr class=&quot;my-4&quot; /&gt;
+  &lt;p&gt;It uses utility classes for typography and spacing to space content out within the larger container.&lt;/p&gt;
+  &lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;ul class=&quot;list-group&quot;&gt;
+  &lt;li class=&quot;list-group-item d-flex justify-content-between align-items-center&quot;&gt;
+    Cras justo odio
+    &lt;span class=&quot;badge badge-primary badge-pill&quot;&gt;14&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item d-flex justify-content-between align-items-center&quot;&gt;
+    Dapibus ac facilisis in
+    &lt;span class=&quot;badge badge-primary badge-pill&quot;&gt;2&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;list-group-item d-flex justify-content-between align-items-center&quot;&gt;
+    Morbi leo risus
+    &lt;span class=&quot;badge badge-primary badge-pill&quot;&gt;1&lt;/span&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;list-group&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action active&quot;&gt;
+    Cras justo odio
+  &lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot;&gt;Dapibus ac facilisis in&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot;&gt;Morbi leo risus&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot;&gt;Porta ac consectetur ac&lt;/button&gt;
+  &lt;button type=&quot;button&quot; class=&quot;list-group-item list-group-item-action&quot; disabled=&quot;&quot;&gt;Vestibulum at eros&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;ul class=&quot;list-unstyled&quot;&gt;
+  &lt;li class=&quot;media&quot;&gt;
+    &lt;img src=&quot;http://placehold.it/150x150&quot; class=&quot;mr-3&quot; alt=&quot;...&quot; /&gt;
+    &lt;div class=&quot;media-body&quot;&gt;
+      &lt;h5 class=&quot;mt-0 mb-1&quot;&gt;List-based media object&lt;/h5&gt;
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;media my-4&quot;&gt;
+    &lt;img src=&quot;http://placehold.it/150x150&quot; class=&quot;mr-3&quot; alt=&quot;...&quot; /&gt;
+    &lt;div class=&quot;media-body&quot;&gt;
+      &lt;h5 class=&quot;mt-0 mb-1&quot;&gt;List-based media object&lt;/h5&gt;
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;media&quot;&gt;
+    &lt;img src=&quot;http://placehold.it/150x150&quot; class=&quot;mr-3&quot; alt=&quot;...&quot; /&gt;
+    &lt;div class=&quot;media-body&quot;&gt;
+      &lt;h5 class=&quot;mt-0 mb-1&quot;&gt;List-based media object&lt;/h5&gt;
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;modal&quot; tabindex=&quot;-1&quot;&gt;
+  &lt;div class=&quot;modal-dialog&quot;&gt;
+    &lt;div class=&quot;modal-content&quot;&gt;
+      &lt;div class=&quot;modal-header&quot;&gt;
+        &lt;h5 class=&quot;modal-title&quot;&gt;Modal title&lt;/h5&gt;
+        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+          &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-body&quot;&gt;
+        &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;modal-footer&quot;&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-3&quot;&gt;
+    &lt;div class=&quot;nav flex-column nav-pills&quot; id=&quot;v-pills-tab&quot; role=&quot;tablist&quot; aria-orientation=&quot;vertical&quot;&gt;
+      &lt;a class=&quot;nav-link active&quot; id=&quot;v-pills-home-tab&quot; data-toggle=&quot;pill&quot; href=&quot;#v-pills-home&quot; role=&quot;tab&quot; aria-controls=&quot;v-pills-home&quot; aria-selected=&quot;true&quot;&gt;Home&lt;/a&gt;
+      &lt;a class=&quot;nav-link&quot; id=&quot;v-pills-profile-tab&quot; data-toggle=&quot;pill&quot; href=&quot;#v-pills-profile&quot; role=&quot;tab&quot; aria-controls=&quot;v-pills-profile&quot; aria-selected=&quot;false&quot;&gt;Profile&lt;/a&gt;
+      &lt;a class=&quot;nav-link&quot; id=&quot;v-pills-messages-tab&quot; data-toggle=&quot;pill&quot; href=&quot;#v-pills-messages&quot; role=&quot;tab&quot; aria-controls=&quot;v-pills-messages&quot; aria-selected=&quot;false&quot;&gt;Messages&lt;/a&gt;
+      &lt;a class=&quot;nav-link&quot; id=&quot;v-pills-settings-tab&quot; data-toggle=&quot;pill&quot; href=&quot;#v-pills-settings&quot; role=&quot;tab&quot; aria-controls=&quot;v-pills-settings&quot; aria-selected=&quot;false&quot;&gt;Settings&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-9&quot;&gt;
+    &lt;div class=&quot;tab-content&quot; id=&quot;v-pills-tabContent&quot;&gt;
+      &lt;div class=&quot;tab-pane fade show active&quot; id=&quot;v-pills-home&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;v-pills-home-tab&quot;&gt;...&lt;/div&gt;
+      &lt;div class=&quot;tab-pane fade&quot; id=&quot;v-pills-profile&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;v-pills-profile-tab&quot;&gt;...&lt;/div&gt;
+      &lt;div class=&quot;tab-pane fade&quot; id=&quot;v-pills-messages&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;v-pills-messages-tab&quot;&gt;...&lt;/div&gt;
+      &lt;div class=&quot;tab-pane fade&quot; id=&quot;v-pills-settings&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;v-pills-settings-tab&quot;&gt;...&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+$('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+&lt;/script&gt;
+
+&lt;!-- Image and text --&gt;
+&lt;nav class=&quot;navbar navbar-light bg-light&quot;&gt;
+  &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/docs/4.5/assets/brand/bootstrap-solid.svg&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;d-inline-block align-top&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;
+    Bootstrap
+  &lt;/a&gt;
+&lt;/nav&gt;
+
+&lt;nav class=&quot;navbar navbar-dark bg-dark&quot;&gt;
+  &lt;!-- Navbar content --&gt;
+&lt;/nav&gt;
+
+&lt;nav class=&quot;navbar navbar-dark bg-primary&quot;&gt;
+  &lt;!-- Navbar content --&gt;
+&lt;/nav&gt;
+
+&lt;nav class=&quot;navbar navbar-light&quot; style=&quot;background-color: #e3f2fd;&quot;&gt;
+  &lt;!-- Navbar content --&gt;
+&lt;/nav&gt;
+
+&lt;nav aria-label=&quot;Page navigation example&quot;&gt;
+  &lt;ul class=&quot;pagination justify-content-center&quot;&gt;
+    &lt;li class=&quot;page-item disabled&quot;&gt;
+      &lt;a class=&quot;page-link&quot; href=&quot;#&quot; tabindex=&quot;-1&quot; aria-disabled=&quot;true&quot;&gt;Previous&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;page-item&quot;&gt;&lt;a class=&quot;page-link&quot; href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;page-item&quot;&gt;&lt;a class=&quot;page-link&quot; href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;page-item&quot;&gt;&lt;a class=&quot;page-link&quot; href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;page-item&quot;&gt;
+      &lt;a class=&quot;page-link&quot; href=&quot;#&quot;&gt;Next&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;top&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+  Popover on top
+&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;right&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+  Popover on right
+&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;bottom&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+  Popover on bottom
+&lt;/button&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-container=&quot;body&quot; data-toggle=&quot;popover&quot; data-placement=&quot;left&quot; data-content=&quot;Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&quot;&gt;
+  Popover on left
+&lt;/button&gt;&lt;/p&gt;
+
+&lt;div class=&quot;spinner-border text-primary&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spinner-border text-secondary&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spinner-border text-success&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spinner-border text-danger&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spinner-border text-warning&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spinner-border text-info&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spinner-border text-light&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;spinner-border text-dark&quot; role=&quot;status&quot;&gt;
+  &lt;span class=&quot;sr-only&quot;&gt;Loading...&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div aria-live=&quot;polite&quot; aria-atomic=&quot;true&quot; style=&quot;position: relative; min-height: 200px;&quot;&gt;
+  &lt;!-- Position it --&gt;
+  &lt;div style=&quot;position: absolute; top: 0; right: 0;&quot;&gt;
+
+    &lt;!-- Then put toasts within --&gt;
+    &lt;div class=&quot;toast&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; aria-atomic=&quot;true&quot;&gt;
+      &lt;div class=&quot;toast-header&quot;&gt;
+        &lt;img src=&quot;http://placehold.it/150x150&quot; class=&quot;rounded mr-2&quot; alt=&quot;...&quot; /&gt;
+        &lt;strong class=&quot;mr-auto&quot;&gt;Bootstrap&lt;/strong&gt;
+        &lt;small class=&quot;text-muted&quot;&gt;just now&lt;/small&gt;
+        &lt;button type=&quot;button&quot; class=&quot;ml-2 mb-1 close&quot; data-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;
+          &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;toast-body&quot;&gt;
+        See? Just like this.
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;toast&quot; role=&quot;alert&quot; aria-live=&quot;assertive&quot; aria-atomic=&quot;true&quot;&gt;
+      &lt;div class=&quot;toast-header&quot;&gt;
+        &lt;img src=&quot;http://placehold.it/150x150&quot; class=&quot;rounded mr-2&quot; alt=&quot;...&quot; /&gt;
+        &lt;strong class=&quot;mr-auto&quot;&gt;Bootstrap&lt;/strong&gt;
+        &lt;small class=&quot;text-muted&quot;&gt;2 seconds ago&lt;/small&gt;
+        &lt;button type=&quot;button&quot; class=&quot;ml-2 mb-1 close&quot; data-dismiss=&quot;toast&quot; aria-label=&quot;Close&quot;&gt;
+          &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;toast-body&quot;&gt;
+        Heads up, toasts will stack automatically
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;Tooltip on top&quot;&gt;
+  Tooltip on top
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;right&quot; title=&quot;Tooltip on right&quot;&gt;
+  Tooltip on right
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;bottom&quot; title=&quot;Tooltip on bottom&quot;&gt;
+  Tooltip on bottom
+&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;left&quot; title=&quot;Tooltip on left&quot;&gt;
+  Tooltip on left
+&lt;/button&gt;&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;https://www.youtube.com/embed/5qap5aO4i9A?rel=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;user-select-all&quot;&gt;This paragraph will be entirely selected when clicked by the user.&lt;/p&gt;
+&lt;p class=&quot;user-select-auto&quot;&gt;This paragraph has the default select behavior.&lt;/p&gt;
+&lt;p class=&quot;user-select-none&quot;&gt;This paragraph will not be selectable when clicked by the user.&lt;/p&gt;
+
+&lt;div class=&quot;overflow-auto&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;overflow-hidden&quot;&gt;...&lt;/div&gt;
+
+&lt;div id=&quot;ytplayer&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = &quot;https://www.youtube.com/player_api&quot;;
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an &lt;iframe&gt; and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '360',
+      width: '640',
+      videoId: 'M7lc1UVf-VE'
+    });
+  }
+&lt;/script&gt;
+
+&lt;p&gt;Links using markdown are normal and styled like this …&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/melnik909/pen/KGxdjY&quot;&gt;A link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But if you use the right class, it can look like this…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/melnik909/pen/KGxdjY&quot; class=&quot;highlighted&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;making-charts-with-chartjs&quot;&gt;Making Charts with Chart.js&lt;/h4&gt;
+
+&lt;canvas id=&quot;myChart&quot;&gt;&lt;/canvas&gt;
+
+&lt;canvas id=&quot;myBarChart&quot; height=&quot;50&quot;&gt;&lt;/canvas&gt;
+
+&lt;script&gt;
+var ctx = document.getElementById('myBarChart').getContext('2d');
+var myBarChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: 'My Skills',
+            data: [12, 19, 3, 5, 2, 3],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+&lt;/script&gt;
+
+&lt;script&gt;
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ['A', 'B', 'C'],
+        datasets: [
+        {
+            data: [10, 20, 30],
+            backgroundColor: '#af90ca',
+            label: 'Before'
+        },
+        {
+            data: [50, 30, 40],
+            backgroundColor: '#c46998',
+            label: 'After'
+        }
+        ]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+&lt;/script&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This is the first footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:bignote&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Here’s one with multiple paragraphs and code.&lt;/p&gt;
+
+      &lt;p&gt;Indent paragraphs to include them in the footnote.&lt;/p&gt;
+
+      &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{ my code }&lt;/code&gt;&lt;/p&gt;
+
+      &lt;p&gt;Add as many paragraphs as you like. &lt;a href=&quot;#fnref:bignote&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Tyler Butler</name></author><category term="post" /><category term="styleguide" /><summary type="html">Markdown Bootstrap [Custom CSS]</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://placehold.it/750X300?text=Header+Image" /><media:content medium="image" url="http://placehold.it/750X300?text=Header+Image" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Lorem Ipsum</title><link href="http://localhost:4000/post/ipsum/2020/10/27/Lorem-Ipsum.html" rel="alternate" type="text/html" title="Lorem Ipsum" /><published>2020-10-27T08:01:21+08:00</published><updated>2020-10-27T08:01:21+08:00</updated><id>http://localhost:4000/post/ipsum/2020/10/27/Lorem-Ipsum</id><content type="html" xml:base="http://localhost:4000/post/ipsum/2020/10/27/Lorem-Ipsum.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quisque non tellus orci ac. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Mi proin sed libero enim. Vitae sapien pellentesque habitant morbi tristique. Sit amet commodo nulla facilisi nullam vehicula. A condimentum vitae sapien pellentesque habitant morbi. Id venenatis a condimentum vitae sapien. In nulla posuere sollicitudin aliquam ultrices.&lt;/p&gt;
+
+&lt;p&gt;Amet mauris commodo quis imperdiet massa tincidunt. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Orci sagittis eu volutpat odio facilisis mauris sit amet. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Amet consectetur adipiscing elit pellentesque habitant morbi. Sit amet nulla facilisi morbi tempus iaculis urna. A lacus vestibulum sed arcu. Turpis cursus in hac habitasse platea dictumst. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Est ante in nibh mauris cursus mattis molestie a. Sit amet massa vitae tortor condimentum lacinia. Mauris ultrices eros in cursus turpis. Pellentesque habitant morbi tristique senectus et. Congue nisi vitae suscipit tellus mauris. Tincidunt praesent semper feugiat nibh sed pulvinar. Nec dui nunc mattis enim ut tellus elementum sagittis. Metus vulputate eu scelerisque felis. Morbi enim nunc faucibus a pellentesque. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio.&lt;/p&gt;
+
+&lt;p&gt;A erat nam at lectus urna duis convallis convallis tellus. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Tristique risus nec feugiat in fermentum posuere urna nec. Vitae aliquet nec ullamcorper sit amet. Diam volutpat commodo sed egestas. Purus semper eget duis at tellus at urna condimentum mattis. Tristique senectus et netus et malesuada. Sit amet tellus cras adipiscing enim. Senectus et netus et malesuada fames ac turpis egestas integer. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Non diam phasellus vestibulum lorem sed risus ultricies. Neque sodales ut etiam sit amet nisl purus in. Molestie at elementum eu facilisis. Turpis egestas integer eget aliquet nibh praesent. Turpis in eu mi bibendum neque. Molestie at elementum eu facilisis sed odio morbi quis commodo. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Purus gravida quis blandit turpis. Mi in nulla posuere sollicitudin aliquam ultrices.&lt;/p&gt;
+
+&lt;p&gt;Donec ac odio tempor orci dapibus ultrices in. Sed libero enim sed faucibus turpis in eu. Viverra aliquet eget sit amet tellus cras adipiscing enim. Feugiat nibh sed pulvinar proin. Congue eu consequat ac felis donec et odio pellentesque diam. Consequat interdum varius sit amet mattis vulputate enim nulla. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Sit amet consectetur adipiscing elit. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Viverra orci sagittis eu volutpat. Integer eget aliquet nibh praesent tristique magna sit amet purus. Ullamcorper sit amet risus nullam. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Consequat id porta nibh venenatis cras sed felis. Nisi lacus sed viverra tellus in hac habitasse. Viverra mauris in aliquam sem fringilla ut.&lt;/p&gt;
+
+&lt;p&gt;Pulvinar pellentesque habitant morbi tristique senectus et netus et. Lacus laoreet non curabitur gravida arcu ac. Pulvinar pellentesque habitant morbi tristique senectus et netus. Ut lectus arcu bibendum at varius vel. Ridiculus mus mauris vitae ultricies leo integer malesuada. Amet dictum sit amet justo. Pretium vulputate sapien nec sagittis aliquam malesuada. Libero enim sed faucibus turpis in. Id volutpat lacus laoreet non curabitur gravida arcu ac. Morbi tristique senectus et netus. Id neque aliquam vestibulum morbi blandit cursus risus at. Turpis massa sed elementum tempus egestas sed sed risus pretium. Tincidunt eget nullam non nisi est sit amet facilisis. Amet purus gravida quis blandit turpis cursus in. Semper risus in hendrerit gravida rutrum quisque non tellus. Cras adipiscing enim eu turpis egestas pretium aenean pharetra.&lt;/p&gt;</content><author><name>Tyler Butler</name></author><category term="post" /><category term="ipsum" /><category term="ipsum" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quisque non tellus orci ac. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Mi proin sed libero enim. Vitae sapien pellentesque habitant morbi tristique. Sit amet commodo nulla facilisi nullam vehicula. A condimentum vitae sapien pellentesque habitant morbi. Id venenatis a condimentum vitae sapien. In nulla posuere sollicitudin aliquam ultrices.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://placehold.it/750X300?text=Header+Image" /><media:content medium="image" url="http://placehold.it/750X300?text=Header+Image" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Another Blog Post</title><link href="http://localhost:4000/post/ipsum/2020/10/27/Lorem-Ipsum2.html" rel="alternate" type="text/html" title="Another Blog Post" /><published>2020-10-27T08:01:21+08:00</published><updated>2020-10-27T08:01:21+08:00</updated><id>http://localhost:4000/post/ipsum/2020/10/27/Lorem-Ipsum2</id><content type="html" xml:base="http://localhost:4000/post/ipsum/2020/10/27/Lorem-Ipsum2.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quisque non tellus orci ac. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Mi proin sed libero enim. Vitae sapien pellentesque habitant morbi tristique. Sit amet commodo nulla facilisi nullam vehicula. A condimentum vitae sapien pellentesque habitant morbi. Id venenatis a condimentum vitae sapien. In nulla posuere sollicitudin aliquam ultrices.&lt;/p&gt;
+
+&lt;p&gt;Amet mauris commodo quis imperdiet massa tincidunt. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Orci sagittis eu volutpat odio facilisis mauris sit amet. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Amet consectetur adipiscing elit pellentesque habitant morbi. Sit amet nulla facilisi morbi tempus iaculis urna. A lacus vestibulum sed arcu. Turpis cursus in hac habitasse platea dictumst. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Est ante in nibh mauris cursus mattis molestie a. Sit amet massa vitae tortor condimentum lacinia. Mauris ultrices eros in cursus turpis. Pellentesque habitant morbi tristique senectus et. Congue nisi vitae suscipit tellus mauris. Tincidunt praesent semper feugiat nibh sed pulvinar. Nec dui nunc mattis enim ut tellus elementum sagittis. Metus vulputate eu scelerisque felis. Morbi enim nunc faucibus a pellentesque. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio.&lt;/p&gt;
+
+&lt;p&gt;A erat nam at lectus urna duis convallis convallis tellus. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Tristique risus nec feugiat in fermentum posuere urna nec. Vitae aliquet nec ullamcorper sit amet. Diam volutpat commodo sed egestas. Purus semper eget duis at tellus at urna condimentum mattis. Tristique senectus et netus et malesuada. Sit amet tellus cras adipiscing enim. Senectus et netus et malesuada fames ac turpis egestas integer. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et. Non diam phasellus vestibulum lorem sed risus ultricies. Neque sodales ut etiam sit amet nisl purus in. Molestie at elementum eu facilisis. Turpis egestas integer eget aliquet nibh praesent. Turpis in eu mi bibendum neque. Molestie at elementum eu facilisis sed odio morbi quis commodo. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Purus gravida quis blandit turpis. Mi in nulla posuere sollicitudin aliquam ultrices.&lt;/p&gt;
+
+&lt;p&gt;Donec ac odio tempor orci dapibus ultrices in. Sed libero enim sed faucibus turpis in eu. Viverra aliquet eget sit amet tellus cras adipiscing enim. Feugiat nibh sed pulvinar proin. Congue eu consequat ac felis donec et odio pellentesque diam. Consequat interdum varius sit amet mattis vulputate enim nulla. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Sit amet consectetur adipiscing elit. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Viverra orci sagittis eu volutpat. Integer eget aliquet nibh praesent tristique magna sit amet purus. Ullamcorper sit amet risus nullam. Non pulvinar neque laoreet suspendisse interdum consectetur libero. Consequat id porta nibh venenatis cras sed felis. Nisi lacus sed viverra tellus in hac habitasse. Viverra mauris in aliquam sem fringilla ut.&lt;/p&gt;
+
+&lt;p&gt;Pulvinar pellentesque habitant morbi tristique senectus et netus et. Lacus laoreet non curabitur gravida arcu ac. Pulvinar pellentesque habitant morbi tristique senectus et netus. Ut lectus arcu bibendum at varius vel. Ridiculus mus mauris vitae ultricies leo integer malesuada. Amet dictum sit amet justo. Pretium vulputate sapien nec sagittis aliquam malesuada. Libero enim sed faucibus turpis in. Id volutpat lacus laoreet non curabitur gravida arcu ac. Morbi tristique senectus et netus. Id neque aliquam vestibulum morbi blandit cursus risus at. Turpis massa sed elementum tempus egestas sed sed risus pretium. Tincidunt eget nullam non nisi est sit amet facilisis. Amet purus gravida quis blandit turpis cursus in. Semper risus in hendrerit gravida rutrum quisque non tellus. Cras adipiscing enim eu turpis egestas pretium aenean pharetra.&lt;/p&gt;</content><author><name>Tyler Butler</name></author><category term="post" /><category term="ipsum" /><category term="jekyll" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna id volutpat lacus laoreet non curabitur gravida arcu. Quisque non tellus orci ac. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Mi proin sed libero enim. Vitae sapien pellentesque habitant morbi tristique. Sit amet commodo nulla facilisi nullam vehicula. A condimentum vitae sapien pellentesque habitant morbi. Id venenatis a condimentum vitae sapien. In nulla posuere sollicitudin aliquam ultrices.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://placehold.it/750X300?text=Header+Image" /><media:content medium="image" url="http://placehold.it/750X300?text=Header+Image" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Project 1</title><link href="http://localhost:4000/project/2020/08/11/Project-1.html" rel="alternate" type="text/html" title="Project 1" /><published>2020-08-11T08:01:21+08:00</published><updated>2020-08-11T08:01:21+08:00</updated><id>http://localhost:4000/project/2020/08/11/Project-1</id><content type="html" xml:base="http://localhost:4000/project/2020/08/11/Project-1.html"></content><author><name>Yong Lee</name></author><category term="project" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/blog2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/blog2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

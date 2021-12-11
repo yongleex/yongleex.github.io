@@ -1,0 +1,19 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'cv_yong_en.blg'
+[39] biber:340> INFO - === 六 12月 11, 2021, 09:40:41
+[48] Biber.pm:415> INFO - Reading 'cv_yong_en.bcf'
+[94] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[102] Biber.pm:4340> INFO - Processing section 0
+[108] Biber.pm:4531> INFO - Looking for bibtex format file 'own-bib.bib' for section 0
+[109] bibtex.pm:1689> INFO - LaTeX decoding ...
+[115] bibtex.pm:1494> INFO - Found BibTeX data source 'own-bib.bib'
+[128] Utils.pm:395> WARN - legacy month field 'jan' in entry 'lee2017outlier' is not an integer - this will probably not sort properly.
+[137] Utils.pm:395> WARN - legacy month field 'sep' in entry 'yang2016automatic' is not an integer - this will probably not sort properly.
+[153] Utils.pm:395> WARN - legacy month field 'nov' in entry 'lee2017pivdcnn' is not an integer - this will probably not sort properly.
+[184] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[184] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[184] Biber.pm:4168> INFO - Sorting list 'ymdnt/global//global/global' of type 'entry' with template 'ymdnt' and locale 'en-US'
+[184] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[193] bbl.pm:654> INFO - Writing 'cv_yong_en.bbl' with encoding 'UTF-8'
+[199] bbl.pm:757> INFO - Output to cv_yong_en.bbl
+[199] Biber.pm:128> INFO - WARNINGS: 3

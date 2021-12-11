@@ -1,0 +1,634 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ymdnt/global//global/global}
+    \entry{Chen2021MuMMI}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7b94cbf557fe90e523d4bf34e2c4840b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Kaiqi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d3913d17eb88bdf9584046784697e2d}{%
+           family={Soh},
+           familyi={S\bibinitperiod},
+           given={Harold},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2063bc6c60c827969b00dccd2b1a7f6e}
+      \strng{fullhash}{ed99b6dda2af0ecbb34abce924537c2a}
+      \strng{bibnamehash}{ed99b6dda2af0ecbb34abce924537c2a}
+      \strng{authorbibnamehash}{ed99b6dda2af0ecbb34abce924537c2a}
+      \strng{authornamehash}{2063bc6c60c827969b00dccd2b1a7f6e}
+      \strng{authorfullhash}{ed99b6dda2af0ecbb34abce924537c2a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE International Conference on Robotics and Automation (ICRA)}
+      \field{title}{Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2107.02339
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2107.02339
+      \endverb
+    \endentry
+    \entry{lee2021surro}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=171a84b7ca35c3329d19a16ac1acc7c1}{%
+           family={Fuqiang},
+           familyi={F\bibinitperiod},
+           given={Gu},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40b7ef33bbb17df40432f6f526035aac}{%
+           family={Zeyu},
+           familyi={Z\bibinitperiod},
+           given={Gong},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{15b57fd1cdb42dc7044edc424b6fcd52}
+      \strng{fullhash}{99bc5eab4ed509590734ab3e9b1cfb93}
+      \strng{bibnamehash}{99bc5eab4ed509590734ab3e9b1cfb93}
+      \strng{authorbibnamehash}{99bc5eab4ed509590734ab3e9b1cfb93}
+      \strng{authornamehash}{15b57fd1cdb42dc7044edc424b6fcd52}
+      \strng{authorfullhash}{99bc5eab4ed509590734ab3e9b1cfb93}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Signal Processing}
+      \field{title}{Surrogate-based cross-correlation for particle image velocimetry}
+      \field{volume}{under review}
+      \field{year}{2021}
+      \true{nocite}
+    \endentry
+    \entry{lee2021diffeomorphic}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ef08c73be2979a18ea7f01f4cab55f2}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{97ddc53957c85fde51d8a75cc50bec7e}
+      \strng{fullhash}{97ddc53957c85fde51d8a75cc50bec7e}
+      \strng{bibnamehash}{97ddc53957c85fde51d8a75cc50bec7e}
+      \strng{authorbibnamehash}{97ddc53957c85fde51d8a75cc50bec7e}
+      \strng{authornamehash}{97ddc53957c85fde51d8a75cc50bec7e}
+      \strng{authorfullhash}{97ddc53957c85fde51d8a75cc50bec7e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9456}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{title}{Diffeomorphic Particle Image Velocimetry}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/tim.2021.3132999
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/TIM.2021.3132999
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/TIM.2021.3132999
+      \endverb
+    \endentry
+    \entry{lee2021gcme}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec44eedac068b80195c2d8242e35f30a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaohua},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32c6e680c53f50db898c4f4da31b32fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Miao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ab8e26abbade55f486312e68ea902e4}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4cb7e9544033bcafca8f9b4f5d6b169e}
+      \strng{fullhash}{703f64a272809ac69b5e8e871cc4830a}
+      \strng{bibnamehash}{703f64a272809ac69b5e8e871cc4830a}
+      \strng{authorbibnamehash}{703f64a272809ac69b5e8e871cc4830a}
+      \strng{authornamehash}{4cb7e9544033bcafca8f9b4f5d6b169e}
+      \strng{authorfullhash}{703f64a272809ac69b5e8e871cc4830a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165-1684}
+      \field{journaltitle}{Signal Processing}
+      \field{title}{Blind Inverse Gamma Correction with Maximized Differential Entropy}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{108427}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.sigpro.2021.108427
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165168421004643
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165168421004643
+      \endverb
+    \endentry
+    \entry{lee2017pivdcnn}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b7a4f92777a6285988a7e2780039ce8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=180bb9d23a896d1092e3d42f448337ed}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Zhouping},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{808644844bbe30ba755d03e4e6dd5e29}
+      \strng{fullhash}{26845680031e638aeeba180af42f47a5}
+      \strng{bibnamehash}{26845680031e638aeeba180af42f47a5}
+      \strng{authorbibnamehash}{26845680031e638aeeba180af42f47a5}
+      \strng{authornamehash}{808644844bbe30ba755d03e4e6dd5e29}
+      \strng{authorfullhash}{26845680031e638aeeba180af42f47a5}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Experiments in Fluids}
+      \field{month}{11}
+      \field{number}{12}
+      \field{title}{{PIV}-{DCNN}: cascaded deep convolutional neural networks for particle image velocimetry}
+      \field{volume}{58}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/s00348-017-2456-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007%2Fs00348-017-2456-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007%2Fs00348-017-2456-1
+      \endverb
+    \endentry
+    \entry{lee2017outlier}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b7a4f92777a6285988a7e2780039ce8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b0f2b123224f83b2072584cd0e9ea7c}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={ZhouPing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{808644844bbe30ba755d03e4e6dd5e29}
+      \strng{fullhash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \strng{bibnamehash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \strng{authorbibnamehash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \strng{authornamehash}{808644844bbe30ba755d03e4e6dd5e29}
+      \strng{authorfullhash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Measurement Science and Technology}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{Outlier detection for particle image velocimetry data using a locally estimated noise variance}
+      \field{volume}{28}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{035301}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6501/aa5431
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088%2F1361-6501%2Faa5431
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F1361-6501%2Faa5431
+      \endverb
+    \endentry
+    \entry{y2017convolutional}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b7a4f92777a6285988a7e2780039ce8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b0f2b123224f83b2072584cd0e9ea7c}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={ZhouPing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{808644844bbe30ba755d03e4e6dd5e29}
+      \strng{fullhash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \strng{bibnamehash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \strng{authorbibnamehash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \strng{authornamehash}{808644844bbe30ba755d03e4e6dd5e29}
+      \strng{authorfullhash}{6d6f1f9414cd7cd306fdb22522650afc}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The 12th International Symposium on Particle Image Velocimetry}
+      \field{number}{ISPIV-128}
+      \field{title}{Convolutional neural networks to measure the velocity gradients of particle image pairs}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{yang2016automatic}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8b7a4f92777a6285988a7e2780039ce8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca1575642ca23a32738edadfd71a3c72}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lianzheng},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b45fc3561031fcbc2bf68efba71f7c36}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=180bb9d23a896d1092e3d42f448337ed}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Zhouping},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {{SPIE}-Intl Soc Optical Eng}%
+      }
+      \strng{namehash}{696b6ea91081524cc6ecb49f4ac8f4c8}
+      \strng{fullhash}{7b343d905a48dd8425b7d958ba18daf8}
+      \strng{bibnamehash}{7b343d905a48dd8425b7d958ba18daf8}
+      \strng{authorbibnamehash}{7b343d905a48dd8425b7d958ba18daf8}
+      \strng{authornamehash}{696b6ea91081524cc6ecb49f4ac8f4c8}
+      \strng{authorfullhash}{7b343d905a48dd8425b7d958ba18daf8}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Electronic Imaging}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{Automatic barcode recognition method based on adaptive edge detection and a mapping model}
+      \field{volume}{25}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{053019}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1117/1.jei.25.5.053019
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1117%2F1.jei.25.5.053019
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1117%2F1.jei.25.5.053019
+      \endverb
+    \endentry
+    \entry{yang2014real}{patent}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=8b7a4f92777a6285988a7e2780039ce8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b0f2b123224f83b2072584cd0e9ea7c}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={ZhouPing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68d53b0fb9f8ce0b560a3da9a2800858}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={YouLun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ef08c73be2979a18ea7f01f4cab55f2}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cef7f9bf1758bf2dcc34434fedeb5a2}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={QiangLong},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bc6e3c1d2ca6da87b0381d4eca1d9e5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={BuYang},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Google Patents}%
+      }
+      \strng{namehash}{696b6ea91081524cc6ecb49f4ac8f4c8}
+      \strng{fullhash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \strng{bibnamehash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \strng{authorbibnamehash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \strng{authornamehash}{696b6ea91081524cc6ecb49f4ac8f4c8}
+      \strng{authorfullhash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{A real-time and accurate flow field measurement system}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/CN203798822U
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/CN203798822U
+      \endverb
+    \endentry
+    \entry{yang2013optical}{patent}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=8b7a4f92777a6285988a7e2780039ce8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b0f2b123224f83b2072584cd0e9ea7c}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={ZhouPing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Google Patents}%
+      }
+      \strng{namehash}{4649cb013ec0d990dab1bd57de9d2abd}
+      \strng{fullhash}{7ad5b94f179cd1d3c65a66b0b80c76ad}
+      \strng{bibnamehash}{7ad5b94f179cd1d3c65a66b0b80c76ad}
+      \strng{authorbibnamehash}{7ad5b94f179cd1d3c65a66b0b80c76ad}
+      \strng{authornamehash}{4649cb013ec0d990dab1bd57de9d2abd}
+      \strng{authorfullhash}{7ad5b94f179cd1d3c65a66b0b80c76ad}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{An optical component for integrating multiple laser sources and the application to ultra-high frequency and ultra-high power laser.}
+      \field{year}{2013}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/CN103592766B
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/CN103592766B
+      \endverb
+    \endentry
+    \entry{yang2017real}{patent}{}
+      \name{author}{7}{ul=2}{%
+        {{un=0,uniquepart=base,hash=8b7a4f92777a6285988a7e2780039ce8}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b0f2b123224f83b2072584cd0e9ea7c}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={ZhouPing},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68d53b0fb9f8ce0b560a3da9a2800858}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={YouLun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ef08c73be2979a18ea7f01f4cab55f2}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4cef7f9bf1758bf2dcc34434fedeb5a2}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={QiangLong},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bc6e3c1d2ca6da87b0381d4eca1d9e5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={BuYang},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0df3606aa8d81340fb597bb73dc78584}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Google Patents}%
+      }
+      \strng{namehash}{cd7c6486f0c1e8829d2c3d55be265d7f}
+      \strng{fullhash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \strng{bibnamehash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \strng{authorbibnamehash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \strng{authornamehash}{cd7c6486f0c1e8829d2c3d55be265d7f}
+      \strng{authorfullhash}{81ec3b813bee45b45dcc4541a3a73be9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{A real-time and accurate flow field measurement system and algorithm}
+      \field{year}{2013}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://patents.google.com/patent/CN103698554B
+      \endverb
+      \verb{url}
+      \verb https://patents.google.com/patent/CN103698554B
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
