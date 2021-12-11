@@ -1,6 +1,0 @@
-PWD /home/yong/Documents/yongleex.github.io.backup/resume/cv_en
-INPUT /usr/local/texlive/2021/texmf.cnf
-INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2021/texmf-var/web2c/xetex/xelatex.fmt
-INPUT publications.tex
-OUTPUT publications.log
